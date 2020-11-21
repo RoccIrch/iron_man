@@ -1,0 +1,58 @@
+main .contenue{
+  margin: 3%;
+  padding: 1px;
+  color: white;
+}
+main .contenue h2{
+  margin: auto;
+  padding: auto;
+  margin-left: 3vw;
+  font-size: 48px;
+}
+main .contenue p{
+  margin: auto;
+  font-size: 24px;
+  padding-top: 1vw;
+}
+
+main .navigation{
+  display: block;
+  margin: 0px;
+  border: solid white 2px;
+  border-radius: 4px;
+}
+main .navigation a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin: 5px;
+}
+main .navigation ul{
+  list-style: none;
+}
+main .navigation ul li{
+  display: inline;
+}
+#vers_acceuil{
+  text-align: left;
+  margin: 10px;
+}
+#vers_page{
+  border-left: solid white 2px;
+  padding-left: 10px;
+}
+main .navigation a:hover{
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 700px){
+  main .navigation ul li{
+    display: block;
+  }
+  main .navigation{
+    text-align: center;
+  }
+  #vers_page{
+    border-left: none;
+  }
+}
